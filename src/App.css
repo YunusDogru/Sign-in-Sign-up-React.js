@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://raw.githubusercontent.com/YunusDogru/Sign-in-Sign-up-React.js/main/img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.toggle-links {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.toggle-links #signin {
+  color: #EEEEEE;
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  font-family: "Baloo Paaji 2", cursive;
+}
+.toggle-links #signup {
+  color: #EEEEEE;
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  font-family: "Baloo Paaji 2", cursive;
+}
+.toggle-links .active {
+  border-bottom: 4px solid #fb176d !important;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  color: #EEEEEE;
+}
+.form .username-wrap, .form .password-wrap, .form .password-wrap2 {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  flex-wrap: nowrap;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.65);
+  opacity: 0.65;
+  margin-bottom: 20px;
+  font-family: "Lato", sans-serif;
+}
+.form .username-wrap i, .form .password-wrap i, .form .password-wrap2 i {
+  width: 30px;
+  font-size: 17px;
+  display: flex;
+  justify-self: start;
+  align-items: center;
+}
+.form .username-wrap #username, .form .username-wrap #password, .form .username-wrap #password2, .form .password-wrap #username, .form .password-wrap #password, .form .password-wrap #password2, .form .password-wrap2 #username, .form .password-wrap2 #password, .form .password-wrap2 #password2 {
+  border: none;
+  height: 30px;
+  border-radius: 25px;
+  background-color: transparent;
+  width: 230px;
+  margin-right: 20px;
+  color: #EEEEEE;
+}
+.form .username-wrap #username:focus, .form .username-wrap #password:focus, .form .username-wrap #password2:focus, .form .password-wrap #username:focus, .form .password-wrap #password:focus, .form .password-wrap #password2:focus, .form .password-wrap2 #username:focus, .form .password-wrap2 #password:focus, .form .password-wrap2 #password2:focus {
+  outline: none;
+  color: #EEEEEE;
+}
+.form .username-wrap #username::-moz-placeholder, .form .username-wrap #password::-moz-placeholder, .form .username-wrap #password2::-moz-placeholder, .form .password-wrap #username::-moz-placeholder, .form .password-wrap #password::-moz-placeholder, .form .password-wrap #password2::-moz-placeholder, .form .password-wrap2 #username::-moz-placeholder, .form .password-wrap2 #password::-moz-placeholder, .form .password-wrap2 #password2::-moz-placeholder {
+  color: #EEEEEE;
+}
+.form .username-wrap #username:-ms-input-placeholder, .form .username-wrap #password:-ms-input-placeholder, .form .username-wrap #password2:-ms-input-placeholder, .form .password-wrap #username:-ms-input-placeholder, .form .password-wrap #password:-ms-input-placeholder, .form .password-wrap #password2:-ms-input-placeholder, .form .password-wrap2 #username:-ms-input-placeholder, .form .password-wrap2 #password:-ms-input-placeholder, .form .password-wrap2 #password2:-ms-input-placeholder {
+  color: #EEEEEE;
+}
+.form .username-wrap #username::placeholder, .form .username-wrap #password::placeholder, .form .username-wrap #password2::placeholder, .form .password-wrap #username::placeholder, .form .password-wrap #password::placeholder, .form .password-wrap #password2::placeholder, .form .password-wrap2 #username::placeholder, .form .password-wrap2 #password::placeholder, .form .password-wrap2 #password2::placeholder {
+  color: #EEEEEE;
+}
+.form .submit {
+  width: 300px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  font-family: "Baloo Paaji 2", cursive;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #fb176d;
+  color: #EEEEEE;
+}
+.form .submit:hover {
+  background-color: #fb0964;
+}
+.form .link {
+  text-align: center;
+  margin: 10px;
+  text-decoration: none;
+  font-family: "Baloo Paaji 2", cursive;
+  color: rgba(238, 238, 238, 0.5);
+  font-size: 14px;
+}
+.form .link:hover, .form .link:active {
+  color: rgba(238, 238, 238, 0.7);
+}/*# sourceMappingURL=App.css.map */
